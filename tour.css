@@ -3,20 +3,21 @@
 
 
 body {
-    margin: 0;
+    margin: auto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    align-items: center;
 }
 
 .header-text {
     display: flex;
     gap: 24px;
-    width: 392;
-    height: 22;
+    width: 400px;
+    height: 22px;
     top: 11px;
     left: 408px;
     gap: 24px;
@@ -27,7 +28,7 @@ body {
     width: 100px;
     height: 22px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: bottom;
@@ -37,11 +38,12 @@ body {
 
 
 .background-1 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/87ce/f5d5/d40a9f22a64d6937ad2f7df5b04e3d85?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XK0XAmGKXnhiFFTjso11taRB9U14r0XEFwjbhtjEhnGLMKhh6GtujwWokoLAM20UuN1UowKaLBbp5x0nIIzOaziqbLxKb6QykD5u28Oe3yqigcIyDhjKkszUeRUw6O~~ENvf~hso7nZ55DCC0o9h-inHzv3yqQpk2YiC7KpubhJZ8SM3Bn~v0aLtKniNv~ghGYxKjQGqKoOfUWbbJsMlJnbaPiz63dbw-c-Y8G-sEaxsHQY0xyYNwWg~KE5T4UfSOTpuk1skTpkYn3PdJ0WzhtCwUtds20ykVp3jPiC-YSDIulV4q-NcKvJ9m3rYGG5tk9nqadqXDRtGHAAxmfjVYQ__");
+    background-image: url("./zurag/bg1.png");
+    background-position: center;
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-repeat: no-repeat;
+   
 }
 
 .container {
@@ -92,7 +94,7 @@ p {
 
 
 .background-2 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/6bb4/74b8/f154e12ab10e74d534a188674e4d8b4c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DpJE8a287397mS2~G0KQHLQhqjHdFF64ujg7~IprMFsqTX0vwpJ23b8-Mr7zzBhXwybKFPKGvkHvFufgE1kg5b5v43AmYIibF0bVvmlys2vr7fjb8ue1uazLuC0YHiWu3kU0lOdNWE7nUCKdR1ApWveaes-kLOkoGhXCwiBR-LU97jX-~8yDLogcsID36AyAFPnB0OAjvqbWo6wOxZudtk9W4OT19lawIfCfJqhADSzt-~WIgCaIapRZKI2gt9yIHXD8glkj4JLzmAwlGiYfpHPAut4ssgtfFZjmvxP426U17AhnAms1FSJmJC4b6lHeOy95lMAVaO~f6rYtFci1kg__");
+    background-image: url("./zurag/bg2.png");
     width: 100%;
     height: 512px;
     background-size: cover;
@@ -110,16 +112,16 @@ p {
 }
 
 .zurag1 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/2a5f/56d0/b0fcdd92a44f32b79a0de512209bb06b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nNV1uJkcV2qx7t8zo4qAe15~~FL2bh0dok3jwgdBl74e7dPQi~r72d3c9W6JxI0h0keRAdvqecB7ZKpRRjOLPUP3-mTnuiF2jqHnV~CYcptb2XyKZ02zMPwumZ8s~jL8MdgjQi-mvqdiqq5LiRdTlxUe2BhlFT93wsqxkrYs5Vo85EohnisCRBmpfawEnNVPu3gVx0EbTOMx5ASJyZg~gVc2t9Wi-rSZdDQ6SagDhWTk1pK7aIM-BljhqLN06Lfx13V~9u4jBeeBZsP7SOMAZ12YYAyjtm1kvv3mTsmtBxYwse0lEkBeCWGXa~b2~tnMZO4VTSLwTuWPE5Hia33Xow__");
+    background-image: url("./zurag/z1.png");
 }
 .zurag2 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Viwx~DAREs8kVpR67uqSFqSiX7rQsYs8-dF87S~S-uxM2JoZBdbejwbuIOXW8h0dxo9QquYsKG63nHc7fby78xUh5Ab-wB-cRzZSBXA6ULJSqkMVHi1Yy8p20JJmBBuBHMHe180x6Zg38YLT2rUuBbUHghyxzTYyS0R~cpr3rgVN9Nj0wcIippFPL0sKZWlXSHMlChYD0kDCUctpEIircN3osh57m5xyKaHoWpowfSeZ4rgMbxjegWpQntKD9MdpXjtnJkjfviCmnUnYHRbpxUdD~8QMoczeE4xjcrPD5jBo3BPiIb99LQAWKY5i-TBlwgswGQ8tMlUH~9qclNZ03Q__");
+    background-image: url("./zurag/z2.png");
 }
 .zurag3 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=relM9qyu12EwJBi~gFvqyeQSsJ3J94O1UmGVLKYohvUknAx5ZIvDlsvsfbwSFCtbQdK59USHfRH0UI4~uLRowG20udVyTf4pFRunPiP6sWVlKxPz-azTyFy8vAycuKwI2pP653ZH-lmN-RgfV4866f6rjBpp-5iIY7ZYUfTLK1ib1Y1GEqa-ldjLqaB3a5tCQRSVM9YWlA9Sw7CbrqqPcHWRpQQK-pFvqFsh2XLO-n3MKhRTZ8q25gAPPGxkMO8AFpZncIMig7C5QcyE8OGhhNtGBDUtPV9YZrd6iZ9cSiPdXUCcSFlQBDuXV19AEq6cAdwMk1qLdxWLwjdDFcEsSw__");
+    background-image: url("./zurag/z3.png");
 }
 .zurag4 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lhNdzGtY7vmcZdFmAYDQrMd~TlHTHw1tBBUy9c1jPVsHVqBRAetVEy9P7J1a-WO2qhxHW~LOuHZu-gsce~IsWsKEnUJhQsi4DIt-8B2R09Y~mHwyRfToRSCv6kJU9xjg9VxNKbJvMo7UCblbznYWT4684xE53CTFQglYwD~QODAHkVkYP79GNTyYccp7G3odAmsZt-rLrZoLAXgtslIkgU3pP1ya299BMGz7Z75JYs4JYx9C3v6OlfQjzDlMifhPZUBeBf72oOJAuD3R-FE3dy9TF-BOLa-LiWGuTEKFjezEy9IZokfB9EmPO0JTJSkr3Um~mYEcEiYJhwl~S~zogA__");
+    background-image: url("./zurag/z4.png");
 }
 .destination:hover {
     background-color: black;
@@ -152,7 +154,7 @@ p {
 }
 
 .background-3 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/f5b1/7d15/dc77956189a929448458859006401865?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JcI9aZdBoiH9Bh8eJkmlaXCTo1dnd0PHSey59gVrz-jdWVj8JqLNtC1at~j4CqcHr6UBS5jZLIS-9Gzi-zhlLfUicu3HHz0ne01Zeto435Hmz9bREMYevxuDuDSqurYmqnm93fnnjGlJG~sM7rcEy2-iOHwNg2Fow1cHhQwJVuN9o310bm0cBAZs2hFMwxu2-5xr~hjblf1FE0T1V6W-un3RNkQCj-E98mcQTR4SRc~M63GSZIJX4fq8b7zrMX7nZKUdHmyhxicUKGa0Ax0Xx4P2L2cXgJCuGeYOfmhAWoWQR0YXBfnS4X98p8VwLkHoxkGyviL8N8cyWCBbUxU7aQ__");
+    background-image: url("./zurag/bg3.png");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -191,13 +193,35 @@ p {
 }
 
 .day1 {
+    display: flex;
     background-color: #EEE9D9;
-    width: 513px;
+    width: 500px;
     height: 112px;
     border-radius: 120px;
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
+}
+.name {
+    width: 217px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.UB {
+    display: flex;
+    gap: 12px;
+}
+.sq {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.dayButton {
+    width: 52px;
+    height: 48px;
+    border: none;
+    border-radius: 50px;
 }
 .day2 {
     background-color:#8BB8C1CC;

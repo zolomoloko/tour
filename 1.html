@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Top-Bottom Blended Images</title>
+  <style>body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+.vertical-blend {
+  width: 600px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Дээд зураг /
+.vertical-blend::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+  background-size: cover;
+  background-position: center top;
+  z-index: 1;
+  opacity: 1;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+/ Доод зураг */
+.vertical-blend::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  background-image: url('https://images.unsplash.com/photo-1549924231-f129b911e442');
+  background-size: cover;
+  background-position: center bottom;
+  z-index: 0;
+  opacity: 1;
+  mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+</style>
+</head>
+<body>
+  <div class="vertical-blend"></div>
+</body>
+</html>
