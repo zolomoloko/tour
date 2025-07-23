@@ -1,232 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 body {
-    margin: auto;
+  margin: auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
 }
 
 .header-text {
-    display: flex;
-    gap: 24px;
-    width: 400px;
-    height: 22px;
-    top: 11px;
-    left: 408px;
-    gap: 24px;
-    color: white;
+  display: flex;
+  gap: 24px;
+  width: 400px;
+  height: 22px;
+  top: 11px;
+  left: 408px;
+  gap: 24px;
+  color: white;
 }
 
 .ti {
-    width: 100px;
-    height: 22px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    vertical-align: bottom;
-    text-transform: capitalize;
-    font-family: 'inter';
+  width: 100px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  font-family: "inter";
 }
 
-
 .background-1 {
-    background-image: url("./zurag/bg1.png");
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-   
+  background-image: url("./zurag/bg1.png");
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
 }
 
 .container {
-    width: 1440px;
-    height: 100vh;
-    margin: 0 auto;
-    border: 1px solid red;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 p {
-
-    margin: 0px;
-    text-align: center;
+  margin: 0px;
+  text-align: center;
 }
 
 .text1 {
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #E8EDF2B8;
-    font-family: "Bebas Neue"
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #e8edf2b8;
+  font-family: "Bebas Neue";
 }
 
 .text2 {
-    font-weight: 400;
-    font-size: 250px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #FDFDFEFA;
-    font-family: "Bebas Neue"
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fdfdfefa;
+  font-family: "Bebas Neue";
 }
 
 .text3 {
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #FFFFFFCC;
-    font-family: "hanuman";
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffffcc;
+  font-family: "hanuman";
 }
 
 .text {
-    padding-top: 400px;
-    margin: 0px;
-    text-align: center;
+  padding-top: 400px;
+  margin: 0px;
+  text-align: center;
 }
 
-
 .background-2 {
-    background-image: url("./zurag/bg2.png");
-    width: 100%;
-    height: 512px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("./zurag/bg2.png");
+  width: 100%;
+  height: 512px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container2 {
-    width: 1440px;
-    height: 512px;
-    margin: 0 auto;
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 1440px;
+  height: 512px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .zurag1 {
-    background-image: url("./zurag/z1.png");
+  background-image: url("./zurag/z1.png");
 }
 .zurag2 {
-    background-image: url("./zurag/z2.png");
+  background-image: url("./zurag/z2.png");
 }
 .zurag3 {
-    background-image: url("./zurag/z3.png");
+  background-image: url("./zurag/z3.png");
 }
 .zurag4 {
-    background-image: url("./zurag/z4.png");
+  background-image: url("./zurag/z4.png");
 }
 .destination:hover {
-    background-color: black;
-    opacity: 60%;
-    transition: 0.5s;
+  background-color: black;
+  opacity: 60%;
+  transition: 0.5s;
 }
 .destination {
-    width: 275px;
-    height: 370px;
-    border-radius: 40px;
-    box-shadow: 8px 8px 0px 0px #29728B40;
-    box-shadow: -8px -8px 0px 0px #1F72AA75;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 8px 8px #29728B40;
-    filter: drop-shadow(-8px -8px #1F72AA75);
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40;
+  box-shadow: -8px -8px 0px 0px #1f72aa75;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 8px 8px #29728b40;
+  filter: drop-shadow(-8px -8px #1f72aa75);
 }
 .vg {
-    width: 100%;
-    height: 100%;
-    font-family: "Bebas Neue";
-    font-weight: 400;
-    font-size: 37px;
-    letter-spacing: 0%;
-    color: #FDFDFECC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    filter: drop-shadow(10px 4px 4.9px  #000000A6);
+  width: 100%;
+  height: 100%;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 37px;
+  letter-spacing: 0%;
+  color: #fdfdfecc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(10px 4px 4.9px #000000a6);
 }
 
 .background-3 {
-    background-image: url("./zurag/bg3.png");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("./zurag/bg3.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container3 {
-    width: 1440px;
-    height: 100vh;
-    margin: 0 auto;
-    border: 1px solid red;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  /* border: 1px solid red; */
 }
-.zurag3-head{
-    width: 1442;
-    height: 51;
-    font-family: "Inter";
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: bottom;
-    padding-top: 120px;
+.zurag3-head {
+  width: 1442;
+  height: 51;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 120px;
 }
-.zurag3-head2{
-    width: 1442;
-    height: 24;
-    font-family: "Inter";
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: bottom;
-    text-transform: capitalize;
-    padding-top: 20px;
+.zurag3-head2 {
+  width: 1442;
+  height: 24;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  padding-top: 20px;
 }
 
 .day1 {
-    display: flex;
-    background-color: #EEE9D9;
-    width: 500px;
-    height: 112px;
-    border-radius: 120px;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee9d9;
+  width: 500px;
+  height: 112px;
+  border-radius: 120px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 .name {
-    width: 217px;
-    height: 29px;
-    font-weight: 500;
-    font-size: 24px;
+  width: 217px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 24px;
 }
 .UB {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 4px;
 }
 .sq {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .dayButton {
-    width: 52px;
-    height: 48px;
-    border: none;
-    border-radius: 50px;
+  width: 52px;
+  height: 48px;
+  border: none;
+  border-radius: 50px;
+  padding-right: 5px;
 }
 .day2 {
-    background-color:#8BB8C1CC;
-    width: 513px;
-    height: 112px;
-    border-radius: 120px;
-    padding: 30px;
+  background-color: #8bb8c1cc;
+  width: 500px;
+  height: 112px;
+  border-radius: 120px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
